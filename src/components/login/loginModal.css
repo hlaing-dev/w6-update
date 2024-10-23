@@ -1,0 +1,31 @@
+.popup-enter {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.popup-enter-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-leave {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.popup-leave-active {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.close_button {
+  border-radius: 80px;
+  background: rgba(21, 93, 255, 0.12);
+}
+
+.login_btn {
+  border-radius: var(--Height-And-Sizes-12, 12px);
+  background: #155dff;
+}

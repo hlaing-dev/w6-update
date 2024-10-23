@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.login_text {
+  color: var(--text-white, #fff);
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.name {
+  color: var(--text-white, #fff);
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 122.222% */
+}
+
+.country {
+  color: var(--text-white, #fff);
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.phnumber {
+  color: var(--text-white, #fff);
+  font-family: "PingFang SC";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 183.333% */
+}
+.level {
+  width: 50px;
+  position: absolute;
+  bottom: 10px; /* Adjust to move it closer or farther from the image */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Ensure it stays perfectly centered */
+  color: var(--text-white, #fff);
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 1px solid #a1beff;
+  background: #77a1ff;
+  padding: 0 8px; /* Ensure there's padding for spacing */
+  display: flex; /* Use flex to align text */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  z-index: 1000;
+}
+
+/* .level {
+  position: absolute;
+  bottom: 5px;
+  color: var(--text-white, #fff);
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: var(--Height-And-Sizes-12, 12px);
+  border: 1px solid #a1beff;
+  background: #77a1ff;
+  padding: 0px var(--Height-And-Sizes-12, 12px);
+  z-index: 1;
+  margin-left: 5px;
+} */
+
+.logout_text {
+  color: var(--danger-6, #f53f3f);
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+
+.arco-nav-bar-title-text {
+  font-weight: 600 !important;
+}
+
+.editBtn {
+  position: absolute;
+  bottom: 13px;
+  right: 0;
+  z-index: 1000;
+}
+
+.arco-input-wrap {
+  padding: 0px !important;
+}
+.selectBtn {
+  display: flex;
+  padding: var(--Height-And-Sizes-12, 12px);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--Height-And-Sizes-12, 12px);
+  border: 1px solid rgba(221, 221, 221, 0.87);
+  background: #fff;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+
+.selectTitle {
+  color: #888;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+}
+
+.arco-popup-content.bottom {
+  border-radius: 37px 37px 0px 0px;
+}
+
+.close_btn {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 80px;
+  background: rgba(21, 93, 255, 0.12);
+}
+
+.arco-picker-header,
+.arco-popup-content {
+  border-radius: 27px 27px 0px 0px !important;
+}
+
+.arco-popup-mask {
+  z-index: 1001 !important;
+}
+
+.list_container {
+  border-radius: var(--Height-And-Sizes-12, 12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+  padding: 16px var(--Height-And-Sizes-12, 12px);
+  gap: 16px;
+}
+
+.list_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline; /* Center vertically */
+  flex-shrink: 0;
+}
+
+.list_inner .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center text */
+  gap: 2px; /* Adjust gap between texts */
+}
+
+.blue-line {
+  border-radius: 2px;
+  background: #155dff;
+  width: 4px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.list_inner h1 {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0; /* Ensure no extra margin */
+}
+
+.list_inner h2 {
+  color: #888;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* Adjust for better spacing */
+  margin: 0; /* Ensure no extra margin */
+}
+
+.list_inner .actions {
+  display: flex;
+  align-items: center; /* Center vertically */
+  gap: 15px; /* Adjust the gap between buttons */
+}
+
+.list_inner button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.del_text {
+  color: var(--text-1, #1d2129);
+
+  /* 14/CN-Regular */
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}

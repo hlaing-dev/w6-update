@@ -1,15 +1,14 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import TopBar from "../components/TopBar";
 import { FaAngleRight } from "react-icons/fa6";
 import { useParams } from "react-router-dom";
 import { ImagePicker } from "@arco-design/mobile-react";
-import { Dialog, Cell } from "@arco-design/mobile-react";
-import { useState } from "react";
+import { Dialog } from "@arco-design/mobile-react";
 import { AiTwotoneExclamationCircle } from "react-icons/ai";
 
 const WithdrawDetail = () => {
   const { id } = useParams();
   const status = id;
-  const [visible, setVisible] = useState(false);
 
   return (
     <div className="relative">

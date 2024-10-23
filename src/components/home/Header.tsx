@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import user from "../../assets/home/user.svg";
 import right from "../../assets/home/right.svg";
@@ -5,14 +7,15 @@ import right2 from "../../assets/home/right2.svg";
 import bell from "../../assets/home/bell.svg";
 import { Badge } from "@arco-design/mobile-react";
 import "./home.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setAuthModel } from "../../store/slices/login/ModelSlice";
 import { useNavigate } from "react-router-dom";
 
 interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = () => {
-  const { openAuthModel } = useSelector((state: any) => state.model);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  // const { openAuthModel } = useSelector((state: any) => state.model);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   // console.log(openAuthModel);

@@ -1,13 +1,15 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useNavigate } from "react-router-dom";
 import back from "../assets/svgs/goback.svg";
 import menu from "../assets/svgs/menu.svg";
-import { Picker, Cell } from "@arco-design/mobile-react";
+import { Picker } from "@arco-design/mobile-react";
 import React from "react";
 
 const TopBar = ({ title, showMenuIcon }: any) => {
   const navigate = useNavigate();
   const [singleVisible, setSingleVisible] = React.useState(false);
-  const [singleValue, setSingeValue] = React.useState(["All"]);
+  const [singleValue ] = React.useState(["All"]);
   const single = React.useMemo(() => {
     return [
       [

@@ -2,9 +2,9 @@ import React from "react";
 import right2 from "../../assets/home/right2.svg";
 import hostList from "../../assets/home/hostList.svg";
 import HostList from "./HostList";
-interface MyHostProps {}
+type MyHostProps = object
 
-const MyHost: React.FC<MyHostProps> = ({}) => {
+const MyHost: React.FC<MyHostProps> = () => {
   return (
     <div className="mx-[16px] my-[20px] flex flex-col">
       {/* header */}

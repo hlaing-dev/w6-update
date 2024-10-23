@@ -7,7 +7,8 @@ import Edit from "./Edit";
 import Layout from "../../Layout";
 
 const Profile = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [isLoggedIn] = useState(true);
   const [isEditMode, setIsEditMode] = useState(false);
   return (
     <Layout>
